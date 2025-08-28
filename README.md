@@ -1,9 +1,10 @@
-# Max (`max-cli`)
+# Max (`@codecapo/max`)
 
 
 
-[![npm version](https://badge.fury.io/js/max-cli.svg)](https://badge.fury.io/js/max-cli)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/@codecapo/max.svg)](https://www.npmjs.com/package/@codecapo/max)
+[![npm downloads](https://img.shields.io/npm/dt/@codecapo/max.svg)](https://www.npmjs.com/package/@codecapo/max)
+[![License: MIT](https://img.shields.io/npm/l/@codecapo/max.svg)](https://opensource.org/licenses/MIT)
 
 **The package manager with the prune command we always wanted.** Max is a fast, local-first tool that safely finds and removes unused dependencies from your `node_modules`.
 
