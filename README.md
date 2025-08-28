@@ -10,10 +10,6 @@
 
 ---
 
-## The "Wow" Factor
-
-*(This is where the demo GIF will go)*
-
 ## Why Max?
 
 The Node.js ecosystem is powerful, but `node_modules` bloat is a chronic problem. It wastes disk space, increases security risks, and complicates maintenance. Existing tools only prune "extraneous" packages, not declared-but-unused ones.
