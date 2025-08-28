@@ -1,5 +1,5 @@
 {
-  "name": "max",
+  "name": "@codecapo/max",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -17,17 +17,13 @@
   "dependencies": {
     "cac": "^6.7.14",
     "cli-table3": "^0.6.5",
+    "execa": "^9.6.0",
     "fast-glob": "^3.3.3",
     "kleur": "^4.1.5",
     "ora": "^8.2.0",
-    "prompts": "^2.4.2",
     "tree-sitter": "^0.25.0"
   },
   "devDependencies": {
-    "@types/node": "^24.3.0",
-    "prettier": "^3.6.2",
-    "tree-sitter-javascript": "^0.23.1",
-    "typescript": "^5.9.2",
-    "vitest": "^3.2.4"
+    "tree-sitter-javascript": "^0.23.1"
   }
 }

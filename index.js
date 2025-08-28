@@ -5,15 +5,17 @@ import { prune } from './src/commands/prune.js';
 
 const cli = cac('max');
 
-// Define the 'prune' command
 cli
-  .command('prune', 'Find unused dependencies in your project')
-  .action(() => {
+  .command('prune', 'Find and remove unused dependencies')
+  // --- Add an option for the --apply flag ---
+  .option('--apply', 'Apply the changes and remove the packages')
+  .action((options) => { // <-- 'options' contains our flags
     const projectDirectory = process.cwd();
-    prune(projectDirectory);
+    // --- Pass the options to our prune function ---
+    prune(projectDirectory, options);
   });
 
 cli.help();
-cli.version('0.0.1'); // Use the version from package.json
+cli.version('0.0.1');
 
 cli.parse();
