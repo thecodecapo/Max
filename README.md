@@ -19,10 +19,21 @@ Max solves this by:
 * **🛡️ Being Safe by Default:** The `prune` command is a dry-run by default. It will never delete anything without your explicit `--apply` command.
 * **🌍 Being Local-First:** No accounts, no cloud, no telemetry. It's a tool that runs on your machine, for your machine.
 
+## Supported Frameworks
+
+Max is built to be intelligent. It automatically detects the following projects and applies a set of rules to avoid incorrectly pruning their essential dependencies:
+
+* Next.js
+* Vite
+* Astro
+* Generic Node.js
+
+*Support for more frameworks (like SvelteKit, Remix, etc.) is coming soon!*
+
 ## Installation
 
 ```bash
-npm install -g @thecodecapo/max
+npm install -g @codecapo/max
 ```
 ## Usage
 
